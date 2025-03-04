@@ -9,10 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asomameco.Application", "As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asomameco.Infraestructure", "Asomameco.Infraestructure\Asomameco.Infraestructure.csproj", "{8893A0AD-631E-4645-A17D-DED5E7B22C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaUusarioASOMAMECO", "pruebaUusarioASOMAMECO\pruebaUusarioASOMAMECO.csproj", "{CBE883B3-828B-46EF-BDEF-1B761AA5A42F}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asomameco.Infraestructure", "Asomameco.Infraestructure\Asomameco.Infraestructure.csproj", "{8893A0AD-631E-4645-A17D-DED5E7B22C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pruebaUusarioASOMAMECO", "pruebaUusarioASOMAMECO\pruebaUusarioASOMAMECO.csproj", "{CBE883B3-828B-46EF-BDEF-1B761AA5A42F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASOMAMECOUsuarioExistente", "ASOMAMECOUsuarioExistente\ASOMAMECOUsuarioExistente.csproj", "{5DD891E6-79D1-4B8E-A12E-DDC0CF4F3579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASOMAMECOUsuarioExistente", "ASOMAMECOUsuarioExistente\ASOMAMECOUsuarioExistente.csproj", "{5DD891E6-79D1-4B8E-A12E-DDC0CF4F3579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
