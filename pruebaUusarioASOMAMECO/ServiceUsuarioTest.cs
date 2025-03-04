@@ -11,7 +11,7 @@ namespace PruebaUsuarioASOMAMECO
     {
         private readonly Mock<IServiceUsuario> _mockServicio;
         private readonly IServiceUsuario _servicioUsuario;
-        //Prueb
+        //Prueba
         public ServicioUsuarioPruebas()
         {
             _mockServicio = new Mock<IServiceUsuario>();
