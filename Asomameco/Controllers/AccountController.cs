@@ -15,6 +15,7 @@ using Org.BouncyCastle.Crypto.Generators;
 
 namespace Asomameco.Controllers
 {
+    //test
     public class AccountController : Controller
     {
         private readonly IServiceUsuario _usuarioService;
