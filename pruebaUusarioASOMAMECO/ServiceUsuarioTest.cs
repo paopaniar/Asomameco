@@ -21,7 +21,7 @@ namespace PruebaUsuarioASOMAMECO
         [Fact]
         public async Task AuthenticateAsync_Deberia_DevolverUsuarioDTO_Cuando_CredencialesSonValidas()
         {
-            // Arrange
+            // Arrange DD
             var usuarioEsperado = new UsuarioDTO { Id = 1, Nombre = "UsuarioValido" };
             _mockServicio.Setup(s => s.AuthenticateAsync(1, "password123")).ReturnsAsync(usuarioEsperado);
 
