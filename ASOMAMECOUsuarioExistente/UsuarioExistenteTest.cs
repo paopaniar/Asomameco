@@ -43,7 +43,7 @@ namespace ASOMAMECOUsuarioExistente
                 Id = 140,
                 Nombre = "David",
                 Apellidos = "Soto",
-                Estado1 = 1,
+                Estado1 = 1, // Estado activo
                 Tipo = 1
             };
 
