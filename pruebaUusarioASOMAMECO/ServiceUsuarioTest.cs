@@ -11,7 +11,7 @@ namespace PruebaUsuarioASOMAMECO
     {
         private readonly Mock<IServiceUsuario> _mockServicio;
         private readonly IServiceUsuario _servicioUsuario;
-        //Prueb
+        //Prueba
         public ServicioUsuarioPruebas()
         {
             _mockServicio = new Mock<IServiceUsuario>();
@@ -22,14 +22,14 @@ namespace PruebaUsuarioASOMAMECO
         [Fact]
         public async Task AuthenticateAsync_Deberia_DevolverUsuarioDTO_Cuando_CredencialesSonValidas()
         {
-            // Arrange
+            // Arrange DD
             var usuarioEsperado = new UsuarioDTO { Id = 1, Nombre = "UsuarioValido" };
             _mockServicio.Setup(s => s.AuthenticateAsync(1, "password123")).ReturnsAsync(usuarioEsperado);
 
             // Act
             var resultado = await _servicioUsuario.AuthenticateAsync(1, "password123");
 
-            // Assert
+            // Assert d
             Assert.NotNull(resultado);
             Assert.Equal(usuarioEsperado.Id, resultado.Id);
             Assert.Equal(usuarioEsperado.Nombre, resultado.Nombre);
