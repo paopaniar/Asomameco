@@ -59,6 +59,21 @@ namespace ASOMAMECOUsuarioExistente
             Assert.Equal("Soto", result.Apellidos);
             Assert.Equal(1, result.Estado1);
         }
+
+        [Fact]
+        public async Task usuarioInexistente()
+        {
+            // Arrange
+            int id = 999; // ID de usuario inexistente
+            _usuarioRepositoryMock.Setup(repo => repo.FindByIdAsync(id)).ReturnsAsync((Asomameco.Infraestructure.Models.Usuario)null);
+
+            // Act
+            var result = await _usuarioService.FindByIdAsync(id);
+
+            // Assert
+            Assert.Null(result); // Debería retornar null si el usuario no existe
+        }
+
     }
 }
 
