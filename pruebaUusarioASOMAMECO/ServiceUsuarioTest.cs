@@ -28,7 +28,7 @@ namespace PruebaUsuarioASOMAMECO
             // Act
             var resultado = await _servicioUsuario.AuthenticateAsync(1, "password123");
 
-            // Assert
+            // Assert d
             Assert.NotNull(resultado);
             Assert.Equal(usuarioEsperado.Id, resultado.Id);
             Assert.Equal(usuarioEsperado.Nombre, resultado.Nombre);
