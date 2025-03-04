@@ -14,7 +14,7 @@ namespace ASOMAMECOUsuarioExistente
 
         public UsuarioExistenteTest()
         {
-            // Crear el Mock del repositorio
+            // Crear el Mock del repository
             _usuarioRepositoryMock = new Mock<IRepositoryUsuario>();
             _mapperMock = new Mock<IMapper>();
             // Inyectamos el Mock en el servicio
